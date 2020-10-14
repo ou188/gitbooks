@@ -1,0 +1,49 @@
+{   
+    "title": "onegitbook",
+    "language": "zh-hans",
+    "author": "Chengwei Yang <me@chengweiyang.cn>",
+    "description": "This is a sample book created by gitbook",
+    "extension": null,
+    "generator": "site",
+    "isbn": "",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "去狗窝路上": "http://www.baidu.com"
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [
+        "expandable-chapters","back-to-top-button", "-lunr", 
+        "-search", 
+        "search-pro","insert-logo","hide-element","pageview-count","custom-favicon"
+    ],
+    "pluginsConfig":{
+        "hide-element":{"elements": [".gitbook-link"]},
+        "insert-logo":{"url":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2106893062,2700340174&fm=26&gp=0.jpg",
+        "style":"background:none;max-height:150px;min-height30px"},
+        "favicon":"./img/favicon.ico"
+
+       
+    },
+    "variables": {}
+}
